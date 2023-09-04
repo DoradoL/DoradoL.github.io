@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedios</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>     
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <div><H1>Rusticos F.C.</H1></div>
+            <div><img src="../imagenes/logo.jpg" alt="logo pagina" srcset="" width="100px"></div>
+        </div>
+    </header>
+    <nav>
+        <div class="navegacion">
+            <div><a href="../index.html">Copa de la liga</a></div>
+            <div>Promedios</div>
+            <div><a href="../Contacto/contacto.html">Contacto</a></div>
+            <div><a href="../Horarios de atencion/horarios.html">Horarios de atencion</a></div>
+            <div><button type="button" class="btn btn-danger" id="salir">Salir del sitio</button></div>
+        </div>
+            <!-- <li></li>
+            <li></li>
+            <li>Promedios</li>
+            <li></li>
+            <li></li>
+        </ul> -->
+
+    </nav>
+    <main class="pro">
+    <div>
+    <table class="table table-dark table-striped">
+        <tr>
+            <td colspan="10">Tabla Anual 2023 (Copas+Descenso)</td>
+        </tr>
+        <tr>
+            <tD>#</th>
+            <tD>Equipo</th>
+            <tD class="pts">Pts</td>
+            <tD class="pj">PJ</td>
+            <tD class="pg">PG</td>
+            <tD class="pe">PE</td>
+            <tD class="pp">PP</td>
+            <tD class="gf">GF</td>
+            <tD class="gc">GC</td>
+            <tD class="dg">DIF</td>
+        </tr>
+        
+        <tr>
+            <tr class="table-success"><td >1</td><td align="left">River Plate</td><td>64</td><td>30</td><td>20</td><td>4</td><td>6</td><td>57</td><td>26</td><td>+31</td></tr>
+            <tr class="table-success"><td>2</td><td align="left">Talleres (C)</td><td>56</td><td>30</td><td>16</td><td>8</td><td>6</td><td>47</td><td>26</td><td>+21</td></tr>
+            <tr class="table-success"><td>3</td><td align="left">San Lorenzo</td><td>50</td><td>29</td><td>13</td><td>11</td><td>5</td><td>26</td><td>15</td><td>+11</td></tr>
+            <tr class="table-success"><td>4</td><td align="left">Boca Juniors</td><td>47</td><td>30</td><td>14</td><td>5</td><td>11</td><td>36</td><td>27</td><td>+9</td></tr>
+            <tr class="table-warning"><td>5</td><td align="left">Def y Justicia</td><td>46</td><td>29</td><td>12</td><td>10</td><td>7</td><td>37</td><td>24</td><td>+13</td></tr>
+            <tr class="table-warning"><td>6</td><td align="left">Lanus</td><td>46</td><td>30</td><td>12</td><td>10</td><td>8</td><td>40</td><td>31</td><td>+9</td></tr>
+            <tr class="table-warning"><td>7</td><td align="left">Rosario Central</td><td>46</td><td>30</td><td>11</td><td>13</td><td>6</td><td>38</td><td>32</td><td>+6</td></tr>
+            <tr class="table-warning"><td>8</td><td align="left">Estudiantes (LP)</td><td>45</td><td>29</td><td>12</td><td>9</td><td>8</td><td>37</td><td>29</td><td>+8</td></tr>
+            <tr class="table-warning"><td>9</td><td align="left">Godoy Cruz</td><td>45</td><td>29</td><td>12</td><td>9</td><td>8</td><td>40</td><td>34</td><td>+6</td></tr>
+            <tr class="table-warning"><td>10</td><td align="left">Argentinos</td><td>44</td><td>30</td><td>12</td><td>8</td><td>10</td><td>38</td><td>29</td><td>+9</td></tr>
+            <tr><td>11</td><td align="left">Newells</td><td>42</td><td>30</td><td>10</td><td>12</td><td>8</td><td>28</td><td>25</td><td>+3</td></tr>
+            <tr><td>12</td><td align="left">Belgrano</td><td>41</td><td>30</td><td>11</td><td>8</td><td>11</td><td>25</td><td>30</td><td>-5</td></tr>
+            <tr><td>13</td><td align="left">Racing Club</td><td>40</td><td>29</td><td>10</td><td>10</td><td>9</td><td>39</td><td>37</td><td>+2</td></tr>
+            <tr><td>14</td><td align="left">Atl Tucuman</td><td>40</td><td>30</td><td>9</td><td>13</td><td>8</td><td>27</td><td>29</td><td>-2</td></tr>
+            <tr><td>15</td><td align="left">Sarmiento (J)</td><td>37</td><td>30</td><td>9</td><td>10</td><td>11</td><td>27</td><td>27</td><td>0</td></tr>
+            <tr><td>16</td><td align="left">Tigre</td><td>37</td><td>30</td><td>10</td><td>7</td><td>13</td><td>29</td><td>33</td><td>-4</td></tr>
+            <tr><td>17</td><td align="left">Banfield</td><td>36</td><td>30</td><td>9</td><td>9</td><td>12</td><td>25</td><td>34</td><td>-9</td></tr>
+            <tr><td>18</td><td align="left">Instituto</td><td>36</td><td>30</td><td>9</td><td>9</td><td>12</td><td>25</td><td>36</td><td>-11</td></tr>
+            <tr><td>19</td><td align="left">Platense</td><td>35</td><td>30</td><td>9</td><td>8</td><td>13</td><td>29</td><td>35</td><td>-6</td></tr>
+            <tr><td>20</td><td align="left">Barracas Central</td><td>35</td><td>29</td><td>8</td><td>11</td><td>10</td><td>26</td><td>36</td><td>-10</td></tr>
+            <tr><td>21</td><td align="left">Union</td><td>34</td><td>29</td><td>7</td><td>13</td><td>9</td><td>23</td><td>27</td><td>-4</td></tr>
+            <tr><td>22</td><td align="left">Independiente</td><td>34</td><td>30</td><td>8</td><td>10</td><td>12</td><td>27</td><td>35</td><td>-8</td></tr>
+            <tr><td>23</td><td align="left">Velez</td><td>33</td><td>30</td><td>7</td><td>12</td><td>11</td><td>28</td><td>29</td><td>-1</td></tr>
+            <tr><td>24</td><td align="left">Central Cba (SdE)</td><td>32</td><td>30</td><td>8</td><td>8</td><td>14</td><td>23</td><td>35</td><td>-12</td></tr>
+            <tr><td>25</td><td align="left">Huracan</td><td>31</td><td>30</td><td>8</td><td>7</td><td>15</td><td>23</td><td>32</td><td>-9</td></tr>
+            <tr><td>26</td><td align="left">Colon</td><td>31</td><td>30</td><td>6</td><td>13</td><td>11</td><td>24</td><td>35</td><td>-11</td></tr>
+            <tr class="table-light"></tr>><td>27</td><td align="left">Gimnasia (LP)</td><td>30</td><td>30</td><td>7</td><td>9</td><td>14</td><td>25</td><td>45</td><td>-20</td></tr>
+            <tr class="table-light"></tr>><td>28</td><td align="left">Arsenal</td><td>25</td><td>29</td><td>7</td><td>4</td><td>18</td><td>21</td><td>37</td><td>-16</td></tr>
+        </table>
+    </div>
+    <br>
+    <div class="pro3">
+        <p>Puestos de Copa Libertadores: Campeón Liga (River Plate) + Campeón Copa de la Liga (A Conf) + Campeón Copa Argentina (A conf) + 3 mejores Tabla Anual.</p>
+        <p>Puestos de Copa Sudamericana: siguientes 6 mejores de Tabla Anual.</p>
+        <p>El último de la Tabla Anual desciende a la Primera Nacional. Si ya desciende por promedios, lo hace el siguiente equipo de la tabla.</p>
+        <p>En caso de empate en puntos por el descenso hay partidos desempate.</p>
+    </div>
+</main>
+<footer class="final">
+    <p>Esta pagina fue creada por LD para el curso AAPROG comision D. Año 2023</p>
+
+</footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<!-- <script src="./script/script.js"></script> -->
+<script src="../script/script2.js"></script>  
+</body>
+</html>

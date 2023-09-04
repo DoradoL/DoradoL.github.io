@@ -1,0 +1,319 @@
+@media (min-width: 769px) and (max-width: 2000px) {
+    
+*{  
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+}
+header {
+    background-color: black;
+    color: red;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    /* width: 100%; */
+    height: 15%;
+   
+}
+
+.encabezado{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: larger;
+    font-size: 1.5em;
+    
+}
+.tabla {
+    /* background-color: rgb(39, 136, 81); */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    border: 2px;
+   
+}
+.navegacion{
+    display: grid;
+    background-color: darkgreen;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    /* border-radius: 5px; */
+    background-color: darkgreen;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-decoration: none;
+    gap: 5px;
+    height:25% ;
+    font-size: 1em;
+    border-bottom: 0cap;
+   
+    
+}
+/* .hor{
+    text-decoration: none;
+} */
+
+.copa{
+    /* background-color: rgb(39, 136, 81); */
+    background-image: url(../imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: black;
+    
+}
+.descrip{
+    border-style: solid;
+    background-color: aliceblue;
+
+}
+.tablas22{
+    border-style: solid;
+    background-color: aliceblue;
+    text-align: center;
+}
+.final{
+    background-color: black;
+    color: dimgray;
+    text-align: center;
+    height: 15%;
+
+
+}
+.contacto{
+    background-color: gainsboro;
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+.llave{
+    text-align: center;
+}
+.tri{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.tablas10{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.asi{
+    display: grid;
+    gap: 10px;
+    
+    
+}
+.pro{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: url(../imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pro3{
+    background-color: antiquewhite;
+    padding-bottom: 0%;
+}
+}
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    *{    margin-left: 0%;
+        margin-right: 0%;
+    }
+    header{
+        background-color: black;
+        color: red;
+        font-family: 'Lilita One', cursive;
+        font-family: 'Rubik Mono One', sans-serif;
+        width: 100%;
+        /* height: 15%; */
+    }
+    .encabezado{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        font-size: larger;
+        font-size: 1.5em;
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        /* display: grid; */
+        background-color: darkgreen;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+        /* margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 5px; */
+        
+        font-family: 'Lilita One', cursive;
+        font-family: 'Rubik Mono One', sans-serif;
+        text-decoration: none;
+        gap: 5px;
+        height:25% ;
+        font-size: 1em;
+        width: 100%;
+    }
+    .copa{
+        /* background-color: rgb(39, 136, 81); */
+        background-image: url(../imagenes/fondo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 5%;
+        /* padding-left: 5%;
+        padding-right: 5%; */
+        padding-bottom: 5%;
+        text-align: center;
+        color: black;
+        
+    }
+    .descrip{
+        border-style: solid;
+        background-color: aliceblue;
+    
+    }
+    .tablas22{
+        border-style: solid;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    .con{
+        /* display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .final{
+        background-color: black;
+        color: dimgray;
+        text-align: center;
+        height: 15%;
+    
+    }
+    .pro{
+        padding-left: 15%;
+        padding-right: 15%;
+        background-image: url(../imagenes/fondo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pro3{
+        background-color: antiquewhite;
+        padding-bottom: 0%;
+    }
+    .contacto{
+        background-color: gainsboro;
+        padding-top: 5%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+       
+    header {
+        background-color: black;
+        color: red;
+        font-family: 'Lilita One', cursive;
+        font-family: 'Rubik Mono One', sans-serif;
+        width: 100%;
+        height: 15%;
+       
+    }
+    .encabezado{
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr; */
+        text-align: center;
+        font-size: larger;
+        font-size: 1.5em;
+        background-color: black;
+        padding: 0%;
+        width: 100%;
+        
+    }
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        /* display: grid; */
+        background-color: darkgreen;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+        /* margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 5px; */
+        font-family: 'Lilita One', cursive;
+        font-family: 'Rubik Mono One', sans-serif;
+        text-decoration: none;
+        gap: 5px;
+        height:25% ;
+        font-size: 1em;
+        max-width: max-content;
+    }
+    .copa{
+        /* background-color: rgb(39, 136, 81); */
+        background-image: url(../imagenes/fondo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 5%;
+        /* padding-left: 5%;
+        padding-right: 5%; */
+        padding-bottom: 5%;
+        text-align: center;
+        color: black;
+        
+    }
+    .descrip{
+        border-style: solid;
+        background-color: aliceblue;
+    
+    }
+    .tablas22{
+        border-style: solid;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    .final{
+        background-color: black;
+        color: dimgray;
+        text-align: center;
+        height: 15%;
+    
+    
+    }
+    .pro{
+        padding-left: 15%;
+        padding-right: 15%;
+        background-image: url(../imagenes/fondo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pro3{
+        background-color: antiquewhite;
+        padding-bottom: 0%;
+        word-spacing: 100%;
+    }
+    .contacto{
+        background-color: gainsboro;
+        padding-top: 5%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 5%;
+    }
+}
